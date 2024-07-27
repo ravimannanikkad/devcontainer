@@ -1,0 +1,12 @@
+{
+    "image": "my_devontainer",
+    "initializeCommand": [
+      "docker",
+      "build",
+      "--file=.devcontainer/Dockerfile",
+      "--network=host",
+      "--tag=my_devontainer",
+      "."
+  ]
+
+  }
